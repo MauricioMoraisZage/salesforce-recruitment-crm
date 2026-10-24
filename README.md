@@ -1,57 +1,46 @@
 # Salesforce Recruitment CRM
 
-Projeto desenvolvido para aprendizagem prática de Salesforce Administration.
+A Salesforce project focused on recruitment process management.
 
-## Objetivo
+## Business Goal
 
-Criar um CRM de recrutamento capaz de gerir:
+Provide a centralized CRM for recruitment companies.
 
-- Empresas clientes
-- Contactos
-- Oportunidades
-- Candidatos
-
-## Tecnologias
-
-- Salesforce Sales Cloud
-- CRM
-- Data Modeling
-- Reports
-- Dashboards
-
-## Objetos Utilizados
-
-### Standard Objects
+## Standard Objects
 
 - Account
 - Contact
 - Lead
 - Opportunity
 
-### Futuros Custom Objects
+## Data Relationships
 
-- Candidate
-- Job Position
-- Interview
+Account (1) -> Contact (N)
 
-## Estado Atual
+Account (1) -> Opportunity (N)
 
-✅ Accounts
+## Current Progress
 
-✅ Contacts
+### Completed
 
-✅ Opportunities
+- Created Accounts
+- Created Contacts
+- Created Opportunities
+- Defined Data Model
+- Defined Sales Process
 
-🚧 Custom Objects
+### In Progress
 
-🚧 Flows
+- Custom Object: Candidate
+- Reports
+- Dashboards
 
-🚧 Security Model
+### Planned
 
-🚧 Reports
+- Automation with Flow
+- Security Configuration
+- Advanced Reporting
 
-🚧 Dashboards
-
-## Autor
+## Author
 
 Maurício Morais Zage
