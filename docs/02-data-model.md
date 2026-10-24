@@ -38,3 +38,27 @@ Account (1)
 Account (1)
 |
 +---- Opportunity (N)
+
+
+# Future Custom Objects
+
+## Candidate
+
+Represents a job candidate.
+
+Fields:
+
+- Full Name
+- Email
+- Phone
+- Skills
+- Years of Experience
+- Status
+
+Example Status:
+
+- Applied
+- Screening
+- Technical Interview
+- Approved
+- Rejected
